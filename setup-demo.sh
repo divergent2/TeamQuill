@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# TeamQuill Demo Account Setup Script
+# This script helps set up the demo account in Firebase
+# Run this after deploying your Firebase project
+
+echo "TeamQuill Demo Account Setup"
+echo "============================"
+echo ""
+echo "This script will guide you through setting up the demo account."
+echo ""
+echo "Prerequisites:"
+echo "  - Firebase project created"
+echo "  - Firebase CLI installed (npm install -g firebase-tools)"
+echo "  - Logged into Firebase (firebase login)"
+echo ""
+echo "To create the demo account:"
+echo ""
+echo "1. Go to Firebase Console: https://console.firebase.google.com/"
+echo "2. Select your project"
+echo "3. Navigate to Authentication → Users"
+echo "4. Click 'Add user'"
+echo "5. Enter:"
+echo "   Email: demo@teamquill.test"
+echo "   Password: TeamQuill123!"
+echo "6. Click 'Add user'"
+echo ""
+echo "Alternatively, you can sign up through the application UI at /signup"
+echo ""
+echo "Demo Credentials:"
+echo "  Email: demo@teamquill.test"
+echo "  Password: TeamQuill123!"
+echo ""
+echo "Note: For security, never commit actual passwords to the repository."
+echo "      These demo credentials should only be used in test/demo environments."
